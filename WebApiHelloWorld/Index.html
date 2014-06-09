@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+
+	<title>ASP.NET WebApi - Hello, World</title>
+	<link href="./Content/bootstrap.min.css" rel="stylesheet">
+	<link href="./Content/Site.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container">
+		<form id="newPersonForm">
+			FullName: <input type="text" id="FullName" size="40" /> Age: <input type="text" id="Age" size="40" /><br />
+			<input type="button" onclick="javascript: submitNewPerson();" value="Submit " />
+		</form>
+	</div>
+
+	<br />
+
+	<div class="container" id="people">
+	</div>
+	
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+	<script src="./Scripts/main.js"></script>
+</body>
+</html>
