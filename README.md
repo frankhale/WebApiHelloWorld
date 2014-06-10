@@ -13,4 +13,8 @@ on this particular one.
 
 https://github.com/fsharp/FSharpCommunityTemplates/tree/master/VisualStudio/FsWebAddRegistryEntiries_NuGet
 
+WORKAROUND:
+
+Copy the package from the folder MissingNugetPackages to the packages folder.
+
 10 June 2014
